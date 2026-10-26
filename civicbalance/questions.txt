@@ -1,0 +1,165 @@
+# QUESTIONNAIRE
+# Edit the words after Q<number>: to change a question.
+# Edit the words after | to change an answer choice.
+# The number before | is its score (0 = lower strain, 4 = higher strain).
+# Keep section headers, Q numbers, and the | separators unchanged.
+# Keep five options per question, scored 0, 1, 2, 3, 4 (order can vary).
+# Section names are internal only; respondents never see them.
+
+[SECTION A]
+Name: News Fatigue
+
+Q1: On average, how many hours per day do you spend consuming political content across news apps, social media, podcasts, or radio?
+0 | Less than 30 minutes
+1 | 30 minutes to 1 hour
+2 | 1 to 2 hours
+3 | 2 to 4 hours
+4 | More than 4 hours
+
+Q2: How frequently throughout the day do you feel an urge to check for breaking news or political updates, even during unrelated activities?
+0 | Never
+1 | Rarely
+2 | Sometimes
+3 | Often
+4 | Very often
+
+Q3: How often do you feel bombarded by the sheer volume or repetitive nature of political headlines?
+0 | Never
+1 | Rarely
+2 | Sometimes
+3 | Often
+4 | Almost constantly
+
+Q4: What physical sensations (e.g., muscle tension, elevated heart rate, shallow breathing, headaches) do you notice while or immediately after consuming high-stakes political news?
+0 | None of these sensations
+1 | Mild tension or discomfort, rarely
+2 | Occasional tension, headache, or changes in breathing
+3 | Frequent or noticeable physical stress symptoms
+4 | Intense or persistent physical stress symptoms
+
+[SECTION B]
+Name: Compassion Fatigue
+
+Q5: Which 2–3 words best describe your primary emotional state after engaging with intense political media?
+0 | Calm, hopeful, informed
+1 | Concerned, thoughtful, engaged
+2 | Worried, uncertain, frustrated
+3 | Anxious, exhausted, overwhelmed
+4 | Hopeless, emotionally drained, numb
+
+Q6: When you read about distant political crises or humanitarian suffering, do you feel emotionally moved, or do you notice a sense of numbness or exhaustion?
+0 | I feel emotionally engaged without becoming drained
+1 | I feel moved and occasionally tired afterward
+2 | I feel both empathy and some emotional exhaustion
+3 | I often feel emotionally numb or exhausted
+4 | I almost always feel numb, detached, or overwhelmed
+
+Q7: Do you feel like your capacity to care about global or national crises has decreased over time due to constant media exposure?
+0 | Not at all
+1 | A little
+2 | Moderately
+3 | Quite a bit
+4 | Extremely
+
+Q8: How difficult is it for you to mentally disengage from political worries and return to a baseline state of calm?
+0 | Not difficult at all
+1 | Slightly difficult
+2 | Moderately difficult
+3 | Very difficult
+4 | Extremely difficult
+
+[SECTION C]
+Name: Affective Polarization
+
+Q9: When you encounter individuals or media expressing opposing political views, what level of irritation, anger, or moral disgust do you feel?
+0 | None
+1 | Mild irritation
+2 | Moderate irritation
+3 | Strong anger or disgust
+4 | Extremely strong anger or disgust
+
+Q10: How significantly has political media consumption strained your personal relationships with family, friends, or coworkers?
+0 | Not at all
+1 | Slightly
+2 | Moderately
+3 | Significantly
+4 | Extremely
+
+Q11: To what extent do you view members of opposing political parties as a direct threat to your personal well-being or values?
+0 | Not at all
+1 | Slightly
+2 | Moderately
+3 | Strongly
+4 | Extremely
+
+Q12: Have you ended or distanced yourself from personal or professional relationships due to differing political views?
+0 | Never
+1 | Once, to a small degree
+2 | Occasionally
+3 | Several times
+4 | Frequently or extensively
+
+[SECTION D]
+Name: Motivated Reasoning
+
+Q13: When you read news that aligns with your political identity, how often do you question its accuracy before accepting or sharing it?
+4 | Never
+3 | Rarely
+2 | Sometimes
+1 | Often
+0 | Always or almost always
+
+Q14: How do you typically react internally when presented with factual claims or data that contradict your existing political beliefs?
+0 | I am curious and willing to reconsider my views
+1 | I feel mildly uncomfortable but examine the evidence
+2 | I feel defensive at first but may reconsider
+3 | I usually dismiss or resist the claims
+4 | I reject them immediately without examining them
+
+Q15: How often do you experience all-or-nothing thoughts like "everything is ruined" or "the other side is completely evil" after consuming news?
+0 | Never
+1 | Rarely
+2 | Sometimes
+3 | Often
+4 | Very often
+
+[SECTION E]
+Name: Spiral of Silence
+
+Q16: How often do you hold back your true political opinions online or in person out of fear of social judgment, conflict, or isolation?
+0 | Never
+1 | Rarely
+2 | Sometimes
+3 | Often
+4 | Almost always
+
+Q17: Do you feel that online political discussions represent the true feelings of moderate people, or do you feel extreme voices dominate the conversation?
+0 | Online discussions mostly reflect a broad range of views
+1 | They somewhat reflect moderate views
+2 | Moderate and extreme voices seem equally visible
+3 | Extreme voices usually dominate
+4 | Extreme voices almost entirely dominate
+
+[SECTION F]
+Name: Political Cynicism
+
+Q18: On a scale of 1 to 10, how much trust do you have that political institutions can resolve major societal problems?
+4 | 1–2: Very little trust
+3 | 3–4: Low trust
+2 | 5–6: Moderate trust
+1 | 7–8: High trust
+0 | 9–10: Very high trust
+
+Q19: How much impact do you believe your individual civic participation (e.g., voting, local organizing) actually has on broader political outcomes?
+0 | A great deal of impact
+1 | Quite a bit of impact
+2 | Some impact
+3 | Very little impact
+4 | No impact at all
+
+Q20: How often do you feel a sense of futility—that no matter what you or others do, political dysfunction will remain unchanged?
+0 | Never
+1 | Rarely
+2 | Sometimes
+3 | Often
+4 | Almost always

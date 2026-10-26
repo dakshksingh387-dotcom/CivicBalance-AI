@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="#10152d" name="theme-color"/>
+  <title>
+   CivicBalance AI - Political Overstimulation and Your Mental Health
+  </title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+  <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet"/>
+ </head>
+ <body>
+  <div class="ambient a1">
+  </div>
+  <div class="ambient a2">
+  </div>
+  <div class="ambient a3">
+  </div>
+  <header class="topbar">
+   <a class="brand" href="/">
+    <span class="brand-icon">
+     ✦
+    </span>
+    <span>
+     CivicBalance
+     <span class="brand-accent">
+      AI
+     </span>
+    </span>
+   </a>
+  </header>
+  <main>
+   <section class="hero">
+    <h1>
+     The world is loud.
+     <br/>
+     <em>
+      How are you feeling?
+     </em>
+    </h1>
+    <p class="hero-copy">
+     Explore how the political climate intersects with your everyday
+                experience. Twenty Six thoughtful questions. A clearer picture of
+                your own perspective.
+    </p>
+   </section>
+   <section class="workspace" id="workspace">
+    <div class="workspace-top">
+     <div>
+      <div class="mini-label">
+       YOUR REFLECTION
+      </div>
+      <h2>
+       Let's explore your experience
+       <span class="heading-dot">
+        .
+       </span>
+      </h2>
+     </div>
+     <div class="progress-count">
+      <strong id="answered">
+       0
+      </strong>
+      <span>
+       / 20 answered
+      </span>
+     </div>
+    </div>
+    <div aria-label="Questionnaire completion" aria-valuemax="20" aria-valuemin="0" aria-valuenow="0" class="progress-track" id="progress" role="progressbar">
+     <div class="progress-fill" id="progressFill">
+     </div>
+    </div>
+    <div class="notice">
+     <span class="notice-icon">
+      ✧
+     </span>
+     <p>
+      There are no right or wrong answers. Think about your
+                    experiences
+      <strong>
+       over the past two weeks
+      </strong>
+      , and
+                    choose what feels closest.
+     </p>
+    </div>
+    <div id="questionnaire">
+     <div class="loading">
+      Preparing your questions&hellip;
+     </div>
+    </div>
+    <div class="actionbar" hidden="" id="actionbar">
+     <div class="action-note" id="remaining">
+      Answer all questions to see your reflection.
+     </div>
+     <button class="primary-btn" disabled="" id="submitBtn">
+      Submit
+      <span>
+       &nearrow;
+      </span>
+     </button>
+    </div>
+    <div class="error" hidden="" id="error" role="alert">
+    </div>
+   </section>
+   <section class="workspace" hidden="" id="deepDive">
+    <div class="mini-label">
+     PHASE 2 &middot; PERSONAL REFLECTION
+    </div>
+    <h2>
+     Go a little deeper
+     <span class="heading-dot">
+      .
+     </span>
+    </h2>
+    <p class="result-intro left-align">
+     Six open-ended questions invite you to reflect in your own words. 
+     Your answers will help generate a personalized reflection. CivicBalance does not save your written responses. Avoid including names or contact details.
+    </p>
+    <p class="privacy-note" id="deepPathwayName"></p>
+    <div aria-label="Follow-up progress" class="progress-track">
+     <div class="progress-fill" id="deepProgress">
+     </div>
+    </div>
+    <div id="deepQuestions">
+    </div>
+    <div class="api-setup">
+     <h3>Personalize with OpenAI</h3>
+     <label class="api-key-label" for="openaiKey">Your OpenAI API key</label>
+     <input id="openaiKey" type="password" maxlength="512" autocomplete="off"
+            autocapitalize="none" spellcheck="false" placeholder="sk-…"
+            aria-describedby="openaiKeyHelp"/>
+     <p class="privacy-note" id="openaiKeyHelp">
+      Your key is used for this request only and is cleared after each attempt.
+      CivicBalance does not save it in cookies, browser storage, reports, or logs.
+      OpenAI API usage is billed to your OpenAI account.
+     </p>
+     <div class="ai-consent">
+      <input id="aiConsent" type="checkbox"/>
+      <label for="aiConsent">
+       I agree to send my 20 selected answers and six written responses to OpenAI
+       using my key to generate a personalized reflection and suggestions.
+      </label>
+     </div>
+     <p class="privacy-note">
+      OpenAI's <a href="https://developers.openai.com/api/docs/guides/your-data"
+       target="_blank" rel="noopener noreferrer">data controls and retention policies</a> apply.
+     </p>
+    </div>
+    <div class="notice consent-box">
+     <input id="shareAggregate" type="checkbox"/>
+     <label for="shareAggregate">
+      I voluntarily agree to share my anonymized assessment scores for aggregated reporting. 
+      Only the six numerical scores and selected pathway enter the report;
+      my key and written responses are excluded.
+     </label>
+    </div>
+    <p class="privacy-note">
+     Optional: leave unchecked to keep all results out of the report.
+    </p>
+    <div class="actionbar">
+     <span class="action-note" id="deepRemaining">
+      Answer six questions to continue.
+     </span>
+     <button class="primary-btn" disabled="" id="completeBtn">
+      View my reflection
+      <span>
+       &nearrow;
+      </span>
+     </button>
+    </div>
+    <div class="error" hidden="" id="deepError" role="alert">
+    </div>
+   </section>
+   <section class="results" hidden="" id="results">
+    <div class="result-orb">
+     ✦
+    </div>
+    <div class="eyebrow">
+     YOUR PERSONAL SNAPSHOT
+    </div>
+    <h2>
+     A clearer view of your experience
+     <span class="heading-dot">
+      .
+     </span>
+    </h2>
+    <p class="result-intro">
+     Your six dimensions are shown separately. Higher scores indicate
+                more of the experience described by that dimension - not a
+                diagnosis or a judgment.
+    </p>
+    <div class="score-grid" id="scoreGrid">
+    </div>
+    <h3 class="section-heading">Your reflection</h3>
+    <p class="result-intro left-align" id="userReflection"></p>
+    <p class="privacy-note">AI-generated reflection for self-awareness, not a clinical assessment.</p>
+    <h3 class="section-heading">
+     Ideas to try
+    </h3>
+    <p class="result-intro" id="pathwaySummary">
+    </p>
+    <div class="strategy-grid" id="strategyGrid">
+    </div>
+    <section class="evaluation-summary" id="evaluationSummary" aria-labelledby="evaluationHeading">
+     <h3 class="section-heading" id="evaluationHeading">Brief evaluation</h3>
+     <ul class="evaluation-list" id="evaluationList"></ul>
+    </section>
+    <button class="secondary-btn" id="restartBtn">
+     &olarr; &nbsp; Start a new reflection
+    </button>
+   </section>
+   <footer>
+    <span>
+     ✦ &nbsp; CivicBalance AI
+    </span>
+   </footer>
+  </main>
+  <script defer="" src="{{ url_for('static', filename='api.js') }}"></script>
+  <script defer="" src="{{ url_for('static', filename='app.js') }}">
+  </script>
+ </body>
+</html>
+

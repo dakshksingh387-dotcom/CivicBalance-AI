@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   CivicBalance AI - Constituent Report
+  </title>
+  <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet"/>
+ </head>
+ <body>
+  <div class="ambient a1">
+  </div>
+  <div class="ambient a2">
+  </div>
+  <header class="topbar">
+   <a class="brand" href="/">
+    <span class="brand-icon">
+     ✦
+    </span>
+    <span>
+     CivicBalance
+     <span class="brand-accent">
+      AI
+     </span>
+    </span>
+   </a>
+   <span class="header-right">
+    STAFF VIEW &middot; AGGREGATE ONLY
+   </span>
+  </header>
+  <main>
+   <section class="hero report-hero">
+    <div class="eyebrow">
+     COMMUNITY WELL-BEING &middot; EXPLORATORY
+    </div>
+    <h1>
+     Constituent
+     <em>
+      pulse.
+     </em>
+    </h1>
+    <p class="hero-copy">
+     An aggregate view of voluntarily shared well-being scores.
+                No names, written responses, addresses, or individual records are shown.
+    </p>
+   </section>
+   <section class="workspace">
+    <div class="mini-label">
+     RESTRICTED ACCESS
+    </div>
+    <h2>
+     Aggregate overview
+     <span class="heading-dot">
+     .
+     </span>
+    </h2>
+    <p class="result-intro left-align">
+     Enter the staff access token configured on the server.
+                The token is used only for this report request and is not stored in your browser.
+    </p>
+    <div class="report-auth">
+     <input aria-label="Staff access token" autocomplete="off" id="token" placeholder="Staff access token" type="password"/>
+     <button class="primary-btn" id="loadReport">
+      View report &nearrow;
+     </button>
+    </div>
+    <div class="error" hidden="" id="reportError" role="alert">
+    </div>
+    <div hidden="" id="reportContent">
+     <div class="report-stat">
+      <span>
+       Voluntary responses
+      </span>
+      <strong id="responseCount">
+       &mdash;
+      </strong>
+     </div>
+     <h3 class="section-heading">
+      Average scores by domain
+     </h3>
+     <div class="score-grid" id="domainGrid">
+     </div>
+     <h3 class="section-heading">
+      Follow-up pathway distribution
+     </h3>
+     <div class="score-grid" id="pathwayGrid">
+     </div>
+    </div>
+    <div class="notice" hidden="" id="reportEmpty">
+    </div>
+   </section>
+   <footer>
+    <span>
+     ✦ CivicBalance AI
+    </span>
+    <span>
+     Voluntary &middot; Aggregated
+    </span>
+   </footer>
+  </main>
+  <script defer="" src="{{ url_for('static', filename='api.js') }}"></script>
+  <script defer="" src="{{ url_for('static', filename='report.js') }}">
+  </script>
+ </body>
+</html>
+

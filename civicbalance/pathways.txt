@@ -1,0 +1,34 @@
+# PHASE 2 — EDITABLE FOLLOW-UP QUESTIONS
+# Each [PATHWAY n] has six questions, Q21 to Q26.
+# These are reflection prompts, not scored multiple-choice questions.
+# Keep the pathway headings and Q numbers unchanged.
+
+[PATHWAY 1]
+Name: Sensory Overload & Emotional Exhaustion
+
+Q21: When you think about turning off news notifications or taking a week-long digital detox, what specific anxiety or fear comes up for you?
+Q22: How do you distinguish between consuming political news to stay informed versus consuming news as an anxious habit?
+Q23: What specific types of political media (e.g., live feeds, cable news, social commentary) leave you feeling the most drained versus informed?
+Q24: What non-digital physical or creative activities help your body reset when you feel sensory overload from the news?
+Q25: Since your emotional bandwidth is finite, what is one specific political or social issue you want to dedicate your energy to, while letting go of the rest?
+Q26: What would a realistic daily or weekly schedule for news intake look like that keeps you civically aware without causing emotional exhaustion?
+
+[PATHWAY 2]
+Name: Social Polarization & Digital Isolation
+
+Q21: When you feel intense anger toward an opposing group, how much of that outrage is directed at real people you know versus an image created by news algorithms?
+Q22: What conversational boundaries can you establish to maintain healthy relationships with loved ones who hold opposing political views?
+Q23: When you withhold your political opinions to avoid conflict, does that choice protect your peace of mind or make you feel disconnected from others?
+Q24: When was the last time you had a respectful conversation with someone whose political views differ from yours, and what did you learn about their underlying values?
+Q25: How can you separate a person's intrinsic human worth from their political opinions when engaging in difficult conversations?
+Q26: Where in your life do you feel safe expressing your genuine thoughts without fear of ideological judgment or public backlash?
+
+[PATHWAY 3]
+Name: Cognitive Rigidity & Civic Helplessness
+
+Q21: What strategies can you use when reading news to distinguish between objective factual evidence and sensationalized narrative framing?
+Q22: When news coverage reinforces your existing political beliefs, how do you verify whether it provides complete context or merely emotional reassurance?
+Q23: Is your feeling that "nothing ever changes" based on your direct personal experience, or is it reinforced by strategy-and-conflict media coverage?
+Q24: While national politics can feel overwhelming and unchangeable, what is one local community issue where your direct efforts can create visible impact?
+Q25: What does meaningful civic engagement look like to you if you measure it by local contributions rather than national political outcomes?
+Q26: What is one small, manageable action you can take this week to regain a sense of personal agency over your immediate environment?
